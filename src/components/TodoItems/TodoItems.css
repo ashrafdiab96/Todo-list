@@ -1,0 +1,55 @@
+.listItems {
+    color: #fff;
+    background-color: #46529d;
+}
+
+.listItems p {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.listItems span {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 0.3px solid #ccc;
+}
+
+.listItems span.title {
+    background-color: #2ebaee !important;
+    color: #fff !important;
+}
+
+.listItems span.task {
+    width: 25%;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.listItems span.desc {
+    width: 60%;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.listItems span.del {
+    width: 15%;
+}
+
+.listItems span.icon {
+    color: #f00;
+    width: 15%;
+    cursor: pointer;
+}
+
+.items {
+    background-color: #fff;
+}
+
+.noItems {
+    color: #000000;
+    font-weight: 400;
+    font-size: larger;
+}

@@ -1,0 +1,25 @@
+#task {
+    width: 25%;
+}
+
+#description {
+    width: 60%;
+}
+
+#submit {
+    width: 15%;
+}
+
+form input {
+    padding: 12px;
+    background: #ebebeb;
+    border: 0.3px solid #ccc;
+    border-radius: 0;
+}
+
+form input[type="submit"] {
+    background: #2ebaee;
+    border: 0.3 solid #2ebaee;
+    color: #fff;
+    cursor: pointer;
+}
